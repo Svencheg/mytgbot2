@@ -1,0 +1,30 @@
+# Не коммитить секреты!
+secrets.txt
+
+# Build files
+bin/
+obj/
+*.user
+*.suo
+*.swp
+
+# Data files
+Data/
+Logs/
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plugins (если будут скомпилированные DLL для разработки)
+Plugins/*.dll
+Plugins/*.pdb
